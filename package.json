@@ -1,0 +1,12 @@
+{
+  "name": "twice",
+  "version": "0.1.0",
+  "description": "Agent skills that earn their place. A procedure is not invocable until you have done it twice.",
+  "type": "module",
+  "bin": { "twice": "bin/twice.js" },
+  "scripts": { "test": "node --test test/*.test.js" },
+  "files": ["bin", "src", "templates", "README.md", "LICENSE"],
+  "keywords": ["claude-code", "agent", "skills", "memory", "knowledge-management"],
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
